@@ -1,0 +1,25 @@
+.profile {
+    width: 79%;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.profile h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.profile p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+}
+
+.proPhoto {
+    display: block;
+    margin: auto;
+    width: 20em;
+    height: 20em;
+    border-radius: 100%;
+}

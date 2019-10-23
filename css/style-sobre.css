@@ -1,0 +1,15 @@
+.rFrame {
+    /* border: 1px solid black; */
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.568);
+    padding-left: 10em;
+    padding-right: 10em;
+    top: 11%;
+    left: 43%;
+    color: rgb(0, 0, 0);
+    padding-bottom: 1em;
+}
+
+.rFrame h1 {
+    text-align: center;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro</title>
+</head>
+
+<body class="center">
+    <ul class="navBar">
+        <li><a href="index.html">Home</a></li>
+        <li class="ativo"><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+    <form action="" method="" class="alinhar">
+        <fieldset id="cadastro2" class="border">
+            <legend class="center">Preencha as informações requeridas</legend><br>
+            <div class="margemtop"><label for="email">Email </label> <input type="email" name="email" id="email"
+                    placeholder="Digite seu e-mail" required></div>
+            <div class="margemtop"><label for="cpf">CPF </label> <input type="number" name="CPF" id="cpf"
+                    placeholder="Digite seu CPF" required></div>
+            <div class="margemtop"><label for="rg">RG </label><input type="number" name="RG" id="rg"
+                    placeholder="Digite seu RG" required>
+            </div>
+            <div class="margemtop"><label for="endereco">Endereço </label> <input type="text" name="endereco"
+                    id="endereco" placeholder="Digite seu endereço" required></div>
+            <div class="margemtop"><label for="numero">Nº </label> <input type="number" name="numero" id="numero"
+                    placeholder="Numero da casa" required></div>
+            <div class="margemtop"><label for="bairro">Bairro </label> <input type="text" name="bairro" id="bairro"
+                    placeholder="Nome do bairro" required></div>
+            <div class="margemtop"><label for="cep">CEP </label> <input type="number" name="cep" id="cep"
+                    placeholder="Digite o CEP" required></div>
+            <div class="margemtop"><label for="cidade">Cidade </label>
+                <select name="cidade" id="cidade" required>
+                    <option value="vazio">Selecione</option>
+                    <option value="osasco">Osasco</option>
+                    <option value="carapicuiba">Carapicuíba</option>
+                    <option value="barueri">Barueri</option>
+                    <option value="itapevi">Itapevi</option>
+                </select></div>
+            <fieldset>
+                <legend>Sexo</legend>
+                <div class="center">
+                    <input type="radio" name="sexo" id="homem" value="Masculino" checked><label for="homem">Masculino
+                    </label>
+                    <input type="radio" name="sexo" id="mulher" value="Feminino"><label for="mulher">Feminino
+                    </label>
+                    <input type="radio" name="sexo" id="outro" value="Outro"><label for="outro"
+                        title="Dinossauro, Avião de combate e etc...">Outro </label>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Diciplina Favorita</legend>
+                <div class="margemtop center">
+                    <input type="checkbox" name="materia" id="pa" value="PA"><label for="pa"
+                        title="Programação e algoritimos">PA </label>
+                    <input type="checkbox" name="materia" id="pw" value="PW"><label for="pa" title="Programação web">PW
+                    </label>
+                    <input type="checkbox" name="materia" id="ltt" value="LTT"><label for="ltt"
+                        title="Liguagem, trabalho e tecnologia">LTT </label>
+                    <input type="checkbox" name="materia" id="bd" value="BD"><label for="bd" title="Banco de dados">BD
+                    </label>
+                    <input type="checkbox" name="materia" id="aps" value="APS"><label for="aps"
+                        title="Análise e projeto de sistemas">APS </label>
+                    <input type="checkbox" name="materia" id="fi" value="FI"><label for="fi"
+                        title="Fundamentos de informática">FI </label>
+                    <input type="checkbox" name="materia" id="dd" value="DD"><label for="dd" title="Design digital">DD
+                    </label>
+                </div>
+            </fieldset>
+            <span class="center inputs margemtop">
+                <input type="reset" value="Limpar" id="botao1">
+                <input type="submit" value="Cadastrar" id="botao2">
+            </span>
+        </fieldset>
+    </form>
+</body>
+
+</html>

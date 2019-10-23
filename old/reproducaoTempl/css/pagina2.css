@@ -1,0 +1,88 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(112, 112, 112);
+}
+.mFrame{
+    background-color:rgb(255, 255, 255);
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    padding: 1em;
+}
+.banner img{
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.texts{
+    width: 80em;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+.texts span{
+    width: 23em;
+    display: inline-block;
+    border-right: 0.065em solid rgb(0, 0, 0);
+    padding: 1em;
+}
+#last{
+    border: none;
+}
+.texts button{
+    border: none;
+    background-color: rgb(35, 149, 241);
+    color: rgb(255, 255, 255);
+    width: 5em;
+    height: 2.5em;
+    border-radius: 0.4em;
+}
+.texts button:hover{
+    border: none;
+    background-color: rgb(241, 35, 35);
+    color: rgb(0, 0, 0);
+    width: 5em;
+    height: 2.5em;
+}
+.texts button:active{
+    border: none;
+    background-color: rgb(243, 211, 28);
+    color: rgb(0, 0, 0);
+    width: 5em;
+    height: 2.5em;
+}
+.infFrame{
+    border: 0.065em solid rgb(35, 149, 241);
+    border-bottom-right-radius: 1em; 
+    border-bottom-left-radius: 1em; 
+    background-color: rgb(35, 149, 241);
+    padding: 1em;
+}
+.subTitles{
+    text-align: center;
+}
+.rndPeople{
+    margin-left: auto;
+    margin-right: auto;
+    width: 31%;
+}
+.bubble{
+    display: inline-block;
+}
+.bubbletext{
+    margin-left: 2.5em;
+}
+.bubble img{
+    width: 8em;
+    height: 8em;
+    border-radius: 5em;
+}
+.center{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

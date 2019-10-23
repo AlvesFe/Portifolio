@@ -1,0 +1,48 @@
+.projects {
+    background-color: rgba(255, 255, 255, 0.568);
+    width: 53%;
+    position: absolute;
+    top: 8%;
+    left: 35%;
+}
+
+.ptd {
+    position: absolute;
+    width: 30em;
+    height: 16.875em;
+    display: inline-block;
+    margin-left: 5%;
+    top: 10%;
+}
+
+.tmpl {
+    position: absolute;
+    width: 30em;
+    height: 16.875em;
+    display: inline-block;
+    margin-left: 5%;
+    top: 60%;
+}
+
+.text {
+    padding-bottom: 10%;
+    margin-left: 5%;
+    color: rgb(0, 0, 0);
+    width: 40%;
+    padding-top: 10%;
+}
+
+.goBtn {
+    margin-top: 1em;
+    border: 0.065em solid rgb(0, 0, 0);
+    background-color: rgb(55, 150, 238);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 6em;
+    height: 3em;
+    border-radius: 0.2em;
+}
+
+.goBtn:hover {
+    background-color: rgb(255, 0, 0);
+}

@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-image: url(../imagens/tile.png);
+}
+a:link, a:hover, a:visited{
+    
+    color: #ffffff;
+}
+.center{
+    text-align: center;
+    margin: auto;
+}
+div.center *{
+    border: 1px solid #000000;
+}
+div.center a{
+    border: none;
+}

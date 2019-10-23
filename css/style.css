@@ -1,0 +1,77 @@
+body {
+    background: url("../img/wallpaper.jpg") no-repeat;
+    background-attachment: scroll;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.page div {
+    display: inline-block;
+    /* padding-bottom: 57em; */
+}
+
+.content {
+    width: 100%;
+}
+
+.content div {
+    display: block;
+}
+
+.lFrame {
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 20%;
+    height: 100%;
+    background-color: #189af0c7;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-bottom: 0.065em solid rgb(255, 255, 255);
+}
+
+.logo img {
+    display: block;
+    width: 12.5em;
+    height: 12.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navBar {
+    margin-top: 30%;
+    font-size: 2em;
+    width: fit-content;
+    margin-left: 15%;
+    margin-right: auto;
+}
+
+.navBar li {
+    list-style-type: none;
+    padding-bottom: 1em;
+}
+
+.active {
+    list-style-image: url('../img/arrow.png');
+}
+
+.navBar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.social {
+    margin-top: 35%;
+    margin-bottom: 20%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social img {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}

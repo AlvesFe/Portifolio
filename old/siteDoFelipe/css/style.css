@@ -1,0 +1,83 @@
+/* Inicio da folha de estilo */
+
+h1 , h2, h3{
+    font-family: Agency FB;
+    font-size: 2em;
+}
+legend{
+    font-family: Agency FB;
+    font-size: 1.8em;
+}
+p{
+    font-size: 1em;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-image: url(../imagens/tilebg.png);
+    background-repeat: repeat;
+}
+.inputs{
+    margin-left: auto;
+    display: block;
+}
+.margem{
+    margin-right: 2.1875em;
+    margin-left: 2.1875em;
+}
+.center{
+    text-align: center;
+    margin: auto;
+}
+#cadastro{
+    margin: auto;
+}
+.border{
+    border: 0.081em solid #2a2a2a;
+    background-color: #ffffff;
+}
+#cadastro2{
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 2%;
+}
+.margemtop{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.margemimg{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.navBar{
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background: #2a2a2a;
+    position: sticky;
+    top: 0;
+}
+.navBar li{
+    float: left;
+}
+.navBar li a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+}
+.navBar li a:hover{
+    background: #000000;
+    font-weight: bold;
+}
+.ativo{
+    background-color: #efb099;
+}
+div.border p{
+    margin-right: 2.1875em;
+    margin-left: 2.1875em;
+}
+.alinhar{
+    text-align: left;
+}
